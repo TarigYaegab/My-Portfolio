@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --c-bg: #0b1120;
+  --c-surface: #131a2a;
+  --c-surface-alt: #1b2438;
+  --c-ink: #e8ecf4;
+  --c-ink-muted: #8b96ac;
+  --c-ink-faint: #5b667e;
+  --c-line: #232e45;
+}
+
+body.light {
+  --c-bg: #f7f8fb;
+  --c-surface: #ffffff;
+  --c-surface-alt: #eef1f7;
+  --c-ink: #151a26;
+  --c-ink-muted: #5b667e;
+  --c-ink-faint: #8a93a6;
+  --c-line: #e3e7f0;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  ::selection {
+    background-color: theme("colors.accent.DEFAULT");
+    color: theme("colors.bg.DEFAULT");
+  }
+
+  :focus-visible {
+    outline: 2px solid theme("colors.accent.DEFAULT");
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  body {
+    @apply bg-bg text-ink transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .section-label {
+    @apply font-mono text-[13px] text-accent tracking-tight;
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* thin scrollbar for terminal / code blocks */
+.mini-scroll::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.mini-scroll::-webkit-scrollbar-thumb {
+  background-color: theme("colors.line");
+  border-radius: 999px;
+}
