@@ -46,7 +46,7 @@ export default function TerminalWindow() {
         <span className="h-2.5 w-2.5 rounded-full bg-[#F56A5B]" />
         <span className="h-2.5 w-2.5 rounded-full bg-[#F5BD4F]" />
         <span className="h-2.5 w-2.5 rounded-full bg-[#59C97A]" />
-        <span className="ml-3 text-xs text-ink-faint font-mono">tarig@dev: ~/portfolio</span>
+        <span className="ml-3 text-xs text-ink-faint font-mono">Tarig Yaegab</span>
       </div>
       <div className="p-5 font-mono text-[13px] sm:text-sm leading-relaxed min-h-[220px]">
         {LINES.slice(0, lineIndex + 1).map((line, i) => {
