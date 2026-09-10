@@ -4,15 +4,15 @@ import SectionHeading from "@/components/ui/SectionHeading";
 const POINTS = [
   {
     label: "What I build",
-    text: "Mobile applications with Flutter, and web interfaces — built to be maintainable, not just to work once.",
+    text: "Software applications and web interfaces focused on practical solutions, usability, and maintainable code.",
   },
   {
     label: "How I work",
-    text: "Clean architecture, separating domain logic from data and UI, so features can change without breaking each other.",
+    text: "Clean architecture, separating business logic from data and UI, so features can evolve without breaking the whole system.",
   },
   {
     label: "What I'm after",
-    text: "Shipping software that's dependable in real use — not just a demo.",
+    text: "Building dependable software that solves real problems — from idea to a working product.",
   },
 ];
 
@@ -24,7 +24,7 @@ export default function About() {
           <SectionHeading
             label="about-me"
             title="I turn ideas into working software."
-            description="Software developer focused on Flutter, with working knowledge of web technologies and Python. I care about code that stays readable once a project grows past its first version."
+            description="Software engineering focused on building practical applications across mobile and web technologies, with a strong interest in clean architecture and maintainable software. I care about code that stays readable once a project grows past its first version."
           />
         </Reveal>
 
