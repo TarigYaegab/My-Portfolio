@@ -9,10 +9,11 @@ export default function Hero() {
           <h1 className="mt-3 font-display text-4xl sm:text-5xl lg:text-[3.4rem] font-semibold leading-[1.08] text-ink">
             Tarig Yaegab
           </h1>
-          <p className="mt-3 text-lg text-ink-muted">Software Developer / Flutter Developer</p>
+          <p className="mt-3 text-lg text-ink-muted">Software Engineer / Application Developer</p>
           <p className="mt-5 max-w-lg text-[15px] leading-relaxed text-ink-muted">
-            I build modern, scalable mobile and web applications — with a focus on Flutter and
-            clean architecture that holds up as a product grows.
+            I build modern, scalable software applications for mobile and web,
+            with a focus on clean architecture, practical solutions, and
+            maintainable code that grows with the product.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
