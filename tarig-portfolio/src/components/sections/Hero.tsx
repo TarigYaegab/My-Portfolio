@@ -5,9 +5,9 @@ export default function Hero() {
     <section id="home" className="pt-32 pb-20 sm:pt-40 sm:pb-28">
       <div className="max-w-content mx-auto px-5 sm:px-8 grid lg:grid-cols-[1.1fr,1fr] gap-14 items-center">
         <div className="animate-fade-up">
-          <p className="section-label">{`// software developer`}</p>
+          <p className="section-label">{`Software Engineer`}</p>
           <h1 className="mt-3 font-display text-4xl sm:text-5xl lg:text-[3.4rem] font-semibold leading-[1.08] text-ink">
-            Tarig Yagoub
+            Tarig Yaegab
           </h1>
           <p className="mt-3 text-lg text-ink-muted">Software Developer / Flutter Developer</p>
           <p className="mt-5 max-w-lg text-[15px] leading-relaxed text-ink-muted">
@@ -23,7 +23,7 @@ export default function Hero() {
               View my projects
             </a>
             <a
-              href="https://github.com/[YOUR_GITHUB]"
+              href="https://github.com/TarigYaegab"
               target="_blank"
               rel="noreferrer"
               className="px-5 py-2.5 rounded-md border border-line text-ink text-sm font-medium hover:border-accent hover:text-accent transition-colors"

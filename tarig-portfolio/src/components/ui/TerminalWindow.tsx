@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
 const LINES = [
-  { prompt: "$ whoami", output: "tarig_yagoub" },
-  { prompt: "$ cat role.txt", output: "Software Developer / Flutter Developer" },
+  { prompt: "$ Who am i", output: "Tarig Yaegab" },
+  { prompt: "$ cat role.txt", output: "Software Engineer / Flutter Developer" },
   { prompt: "$ flutter build apk --release", output: "Building... ✓ Done in 41.2s" },
   { prompt: "$ git push origin main", output: "Everything up-to-date" },
 ];

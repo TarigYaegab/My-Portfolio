@@ -29,7 +29,7 @@ export default function Navbar() {
     >
       <nav className="max-w-content mx-auto flex items-center justify-between px-5 sm:px-8 h-16">
         <a href="#home" className="font-display font-semibold text-ink tracking-tight">
-          tarig<span className="text-accent">.</span>dev
+          Tarig<span className="text-accent">.</span>dev
         </a>
 
         <ul className="hidden md:flex items-center gap-7">
